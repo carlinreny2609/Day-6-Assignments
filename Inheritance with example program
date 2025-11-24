@@ -1,0 +1,33 @@
+Inheritance is used to inherit the properties of the parent class to the subclass.
+it is performed by using the extends keyword.
+
+The types of inheritance are 
+Single,
+multilevel
+heirarchial
+hybrid.
+
+Sample Program:
+
+package selenium;
+
+class parentclass{
+	
+	void add() {
+		
+		System.out.print("This parent class");
+	}
+
+}
+
+public class Inheritance extends parentclass{
+	
+	public static void main(String[]Args) {
+		
+		Inheritance object = new Inheritance();
+		
+		object.add();
+		
+	}
+	
+}
