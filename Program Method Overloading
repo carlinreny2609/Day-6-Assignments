@@ -1,0 +1,25 @@
+class Add{
+
+void Add(int a, int b){//method 1
+System.out.println("This is add method from child class");
+
+}
+
+void Add(int I,int j,int k){//method 2
+
+System.out.println("This is add method from child class");
+
+}
+
+}
+public class  mainclass extends Add{
+
+public static void main(String[]Args){
+
+mainclass object = new mainclass();
+
+object.Add(4,5,6);//method with 1 parmeters
+
+objectAdd(1,2);//method with 2 parameters
+}
+}
