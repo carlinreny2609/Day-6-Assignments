@@ -1,0 +1,37 @@
+What is constructor Overloading:
+
+Constructor overloading is used when we need same constructor with different parameters. Constructors are executed when the object is initialized.
+In the below example we have constructor with same names and different parameters.
+
+We are using parameterized constructor Below.
+
+Sample program:
+
+
+package selenium;
+
+public class Constructor_overloading {
+
+	Constructor_overloading(int a, int b) {
+
+		int sum = a + b;
+
+		System.out.println("The first constructor loading.." + sum);
+
+	}
+
+	Constructor_overloading(int i, int j, int k) {
+
+		int sum = i + j + k;
+
+		System.out.println("The second constructor loading.." + sum);
+
+	}
+
+	public static void main(String[] Args) {
+		Constructor_overloading object = new Constructor_overloading(5, 5);
+		Constructor_overloading object1 = new Constructor_overloading(5, 5, 5);
+
+	}
+
+}
